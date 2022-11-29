@@ -1,14 +1,22 @@
 # robosys2022
-ロボットシステム学の練習リポジトリ  
-
-このリポジトリには
+このリポジトリはロボットシステム学の練習リポジトリです.    
 
 # plusコマンド 
 ![test](https://github.com/kula0416/robosys2022/actions/workflows/test.yml/badge.svg)  
-標準入力から読み込んだ数字を足す.  
+標準入力から読み込んだ数字を足す(詳細は使い方で...).
 
 ## 使い方
-`git clone https://github.com/kula0416/robosys2022`を実行する.
+```
+git clone https://github.com/kula0416/robosys2022
+```
+を実行する.  
+```
+seq <数字> | ./plus
+```
+によって指定した数字までの連続番号を足す.
+### 使用例
+
+
 
 ## 必要なソフトウェア
 * Python
