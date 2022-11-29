@@ -7,16 +7,18 @@
 
 ## 使い方
 ```
-git clone https://github.com/kula0416/robosys2022
+$ git clone https://github.com/kula0416/robosys2022
 ```
 を実行する.  
 ```
-seq <数字> | ./plus
+$ seq <数字> | ./plus
 ```
-によって指定した数字までの連続番号を足す.
+によって指定した数字を足す.
 ### 使用例
-
-
+```
+$ seq 5 | ./plus  #1から5までの数字を足す.
+15
+```
 
 ## 必要なソフトウェア
 * Python
